@@ -16,67 +16,53 @@ params:
   description: 
   navbarlogo:
   # Logo (from static/images/logos/___)
-   image: logos/fresh.svg
+   image: logos/logo-martify.svg
    link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Mini Mercado.
+    title: Mercado em Casa.
     # Hero subtitle (optional)
     subtitle: Transforme sua casa em um mini mercado e ganhe dinheiro com isso, venda os produtos mais famosos sem sair de casa.
     # Button text
     buttontext: Tenho interesse
     # Where the main hero button links to
-    image: illustrations/minimercado.png
-    buttonlink: "#"
+    image: illustrations/martify.svg
+    buttonlink: "#form-email"
     # Hero image (from static/images/___)
     # Footer logos (from static/images/logos/clients/___.svg)
     clientlogos:
-    - systek
-    - tribe
-    - kromo
-    - infinite
-    - gutwork
+    - coca
+    - nestle2
+    - itambe2
+    - skol2
+    - unilever
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
-  - title: Pricing
-    url: /
-  - title: Dropdown
-    sublinks:
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-    - title: Dropdown item
-      url: /
-  - title: Log in
-    url: /
-  - title: Sign up
-    url: /
+  - title: Participar
+    url: "#form-email"
     button: true
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Faça parte da revolução
+    subtitle: comece a ganhar dinheiro já
     tiles:
-    - title: App builder
+    - title: Rápido
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
+      text: Cadastra-se na plataforma em apenas alguns cliques
       url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      buttonText: Clique e veja
+    - title: Fácil
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
+      text: Só precisa de um celular ou um computador
       url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      buttonText: Faça parte
+    - title: Lucrativo
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
+      text: Ganhe dinheiro sem sair de casa, é bem fácil
       url: /
-      buttonText: Get started
+      buttonText: Comece já
   section2:
     title: You're here because you want the best
     subtitle: And we know it
@@ -92,27 +78,27 @@ params:
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
       icon: mobile-feed
   section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
+    title: O que você precisar
+    subtitle: em um único lugar
+    image: illustrations/mockups/app-mobile.svg
+    buttonText: Faça parte
     buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+  # section4:
+  #   title: Our Clients love us!
+  #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Irma Walters
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Accountant
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+  #     job: HR Manager
+  #     img: 3
   section5: true
   footer:
     # Logo (from /images/logos/___)
