@@ -45,44 +45,44 @@ params:
     url: "#form-email"
     button: true
   section1:
-    title: Faça parte da revolução
-    subtitle: comece a ganhar dinheiro já
+    title: Rápido, Fácil e Lucativo
+    subtitle: Faça sua casa trabalhar para você
     tiles:
     - title: Rápido
       icon: mouse-globe
       text: Cadastra-se na plataforma em apenas alguns cliques
-      url: /
+      url: "#form-email" 
       buttonText: Clique e veja
     - title: Fácil
-      icon: laptop-cloud
+      icon: plug-cloud
       text: Só precisa de um celular ou um computador
-      url: /
+      url: "#form-email" 
       buttonText: Faça parte
     - title: Lucrativo
-      icon: plug-cloud
+      icon: laptop-cloud
       text: Ganhe dinheiro sem sair de casa, é bem fácil
-      url: /
+      url: "#form-email" 
       buttonText: Comece já
   section2:
-    title: You're here because you want the best
-    subtitle: And we know it
+    title: Veja como transformar sua Casa em um mini mercado
+    subtitle: E tenha uma renda extra no final do mês
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Cadastra-se
+      text: Faça o cadastro na plataforma em apenas alguns cliques (celular ou computador), e receba os produtos na sua casa, sem custo algum, você só será cobrado se consumir algum produto.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Aceite o pedido
+      text: Você receberá uma notificação de que existe um pedido de um ou mais produtos que você recebeu e está guardando na sua casa, esse pedido estará próximo da sua casa, basta aceitar ele.
       icon: mobile-feed
+    - title: Entregue o produto
+      text: Quando você aceitar o pedido, a pessoa que fez esse pedido, irá até a sua casa para retirar os produtos, você precisa apenas entregar para ela, com isso você irá ganhar uma parte da venda.
+      icon: doc-sync
   section3:
-    title: O que você precisar
-    subtitle: em um único lugar
+    title: Sua casa, seu mercado
+    subtitle: agora ficou mais fácil empreender
     image: illustrations/mockups/app-mobile.svg
     buttonText: Faça parte
-    buttonLink: "#"
+    buttonLink: "#form-email" 
   # section4:
   #   title: Our Clients love us!
   #   subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
@@ -102,52 +102,49 @@ params:
   section5: true
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: martify-white-alt.svg
     # Social Media Title
-    socialmediatitle: Follow Us
+    #socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
-    socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
-      # Icons are from Font Awesome
-      icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
-    - link: https://twitter.com/lucperkins
-      icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
-    bulmalogo: true
+    # socialmedia:
+    # - link: https://github.com/lucperkins/github-fresh
+    #   # Icons are from Font Awesome
+    #   icon: github
+    # - link: https://dribbble.com/#
+    #   icon: dribbble
+    # - link: https://facebook.com/#
+    #   icon: facebook
+    # - link: https://twitter.com/lucperkins
+    #   icon: twitter
+    # - link: https://bitbucket.org/#
+    #   icon: bitbucket
+    #bulmalogo: true
     quicklinks:
       column1:
-        title: "Product"
+        title: "Produto"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
-      column2:
-        title: "Docs"
-        links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
-      column3:
-        title: "Blog"
-        links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+        - text: Mini Mercado
+          link: "#section-home"
+        - text: Vantagens
+          link: "#section-benefits"
+        - text: Como funciona
+          link: "#section-how-works"
+        - text: Faça parte
+          link: "#form-email"   # column2:
+      #   title: "Docs"
+      #   links:
+      #   - text: Get started
+      #     link: /
+      #   - text: User guides
+      #     link: /
+      #   - text: Admin guide
+      #     link: /
+      #   - text: Developers
+      #     link: /
+      # column3:
+      #   title: "Blog"
+      #   links:
+      #   - text: Latest news
+      #     link: /blog/first
+      #   - text: Tech articles
+      #     link: /blog/second
