@@ -5,20 +5,22 @@
       <h3 class="subtitle is-5 is-muted">Comece a ganhar dinheiro agora</h3>
       <div class="divider is-centered"></div>
     </div>
-
     <div class="content-wrapper">
       <div class="columns">
         <div class="column is-6 is-offset-3">
-          <form>
+          <form id="form" name="form" method="post">
             <div class="columns is-multiline">
               <div class="column is-6">
-                <input class="input is-medium" type="text" placeholder="Seu nome">
+                <input class="input is-medium" type="text" name="name" placeholder="Seu nome">
               </div>
               <div class="column is-6">
-                <input class="input is-medium" type="email" placeholder="Seu email">
+                <input class="input is-medium" type="tel" name="phone" placeholder="Seu número" >
+              </div>
+              <div class="column is-12">
+                <input class="input is-medium" type="email" name="email" placeholder="Seu email" >
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button class="button cta is-large primary-btn raised is-clear">Participar</button>
+                <button type="submit" class="button cta is-large primary-btn raised is-clear">Participar</button>
               </div>
             </div>
           </form>
