@@ -6,7 +6,7 @@ $(document).ready(function(){
       $.ajax({
        type: "POST",
        cache: false,
-       url: "https://dry-badlands-48403.herokuapp.com/api/leads",
+       url: "https://martify.herokuapp.com/api/leads",
        data: $(this).serializeArray(),
        }).done(function( msg ) {
          console.log("Response" + msg)
