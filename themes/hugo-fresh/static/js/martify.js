@@ -5,6 +5,7 @@ $(document).ready(function(){
       console.log("serialize array" + $(this).serializeArray())
       $.ajax({
        type: "POST",
+       cache: false,
        url: "https://dry-badlands-48403.herokuapp.com/api/leads",
        data: $(this).serializeArray(),
        }).done(function( msg ) {

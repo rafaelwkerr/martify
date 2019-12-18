@@ -5,6 +5,12 @@ $(document).ready(function(){
       console.log("serialize array" + $(this).serializeArray())
       $.ajax({
        type: "POST",
+       dataType: 'jsonp',
+       headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
+       contentType: 'application/json',
+       cache: false,
        url: "https://dry-badlands-48403.herokuapp.com/api/leads",
        data: $(this).serializeArray(),
        }).done(function( msg ) {
@@ -14,5 +20,5 @@ $(document).ready(function(){
 
       return false;
     });
-
+    
 })
