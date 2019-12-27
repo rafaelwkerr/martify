@@ -17,7 +17,8 @@
         </h2>
         {{ end }}
         <p>
-          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}">
+          <a class="button cta rounded primary-btn raised" href="{{ $buttonLink }}" 
+             onclick="ga('send', 'event', 'MVP', 'interested', 'hero body click event', 1);">
             {{ $buttonText }}
           </a>
         </p>

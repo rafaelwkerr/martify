@@ -52,7 +52,7 @@ params:
       icon: mouse-globe
       text: Cadastra-se na plataforma em apenas alguns cliques
       url: "#form-email" 
-      buttonText: Clique e veja
+      buttonText: Faça parte
     - title: Fácil
       icon: plug-cloud
       text: Só precisa de um celular ou um computador
@@ -62,7 +62,7 @@ params:
       icon: laptop-cloud
       text: Ganhe dinheiro sem sair de casa, é bem fácil
       url: "#form-email" 
-      buttonText: Comece já
+      buttonText: Faça parte
   section2:
     title: Veja como transformar sua Casa em um mini mercado
     subtitle: E tenha uma renda extra no final do mês

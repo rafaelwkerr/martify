@@ -25,7 +25,8 @@
                 <p>{{ .text }}</p>
             </div>
             <div class="card-action">
-              <a href="{{ .url }}" class="button btn-align-md accent-btn raised">{{ .buttonText }}</a>
+              <a href="{{ .url }}" class="button btn-align-md accent-btn raised"
+              onclick="ga('send', 'event', 'MVP', 'join us', 'join us click event', 1);">{{ .buttonText }}</a>
             </div>
           </div>
         </div>

@@ -1,6 +1,9 @@
 $(document).ready(function(){
 
     $("#form").submit(function(){
+
+      ga('send', 'event', 'MVP', 'Submit Form Data', $(this).serializeArray(), 1);
+
       console.log("form submit ok")
       console.log("serialize array" + $(this).serializeArray())
       $.ajax({
