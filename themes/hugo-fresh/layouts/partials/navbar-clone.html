@@ -8,7 +8,8 @@
   <div class="container">
     <div class="navbar-brand">
       {{- if $navbarLogo}}
-      <a class="navbar-item" href="{{ $navbarLogo.link }}">
+      <a class="navbar-item" href="{{ $navbarLogo.link }}"
+      onclick="ga('send', 'event', 'MVP', 'associate', 'navbar click event', 1);">
         <img src="{{ printf "/images/%s" $navbarLogo.image | relURL }}" alt="" width="112" height="28">
       </a>
       {{- end}}

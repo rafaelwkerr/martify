@@ -2,7 +2,7 @@ baseURL: http://something-fresh.org/
 languageCode: en-us
 title: Martify
 theme: hugo-fresh
-googleAnalytics: "G-GDPBRCHCTJ"
+googleAnalytics: "UA-152663096-1"
 disableKinds:
  -taxonomy
  -taxonomyTerm
