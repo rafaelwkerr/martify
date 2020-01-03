@@ -4,17 +4,22 @@
 	<meta name="generator" content="Hugo 0.60.0" />
   
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDPBRCHCTJ"></script>
+  
 
   <script src="/js/martify.js"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GDPBRCHCTJ');
-  </script>
+  
     
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-GDPBRCHCTJ', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 
 <meta property="og:title" content="Martify" />
 <meta property="og:description" content="" />
@@ -34,6 +39,17 @@
 <link rel="stylesheet" type="text/css" href="/css/style.min.2d30f11fc8cc2edf51bbbb3628bbe0c3fa41883a3550f01bb941ca907bcaeee1.css" integrity="sha256-LTDxH8jMLt9Ru7s2KLvgw/pBiDo1UPAbuUHKkHvK7uE=">
 <link rel="stylesheet" type="text/css" href="/css/icons.css">
 
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GDPBRCHCTJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GDPBRCHCTJ');
+  </script>
 
   </head>
   <body>
@@ -355,7 +371,8 @@
                 <input class="input is-medium" type="email" name="email" placeholder="Seu email" >
               </div>
               <div class="form-footer has-text-centered mt-10">
-                <button type="submit" class="button cta is-large primary-btn raised is-clear">Participar</button>
+                <button type="submit" class="button cta is-large primary-btn raised is-clear"
+                onclick="ga('send', 'event', 'MVP', 'submit', 'submit click event', 1);">Participar</button>
               </div>
             </div>
           </form>
